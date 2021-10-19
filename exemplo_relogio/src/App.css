@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.botoes
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+/* .bt1
+{
+  background-color:#282c34 ;
+  border: none;
+  border: 2px white solid;
+  color: white;
+  padding: 20px;
+  border-radius: 10%;
+  font-weight: 600;
+  transition: 0.5s;
+} */
+
+.bt2
+{
+  background-color:#282c34 ;
+  border: none;
+  border: 2px white solid;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.bt1 {
+  background-color:#282c34 ;
+  border: none;
+  border: 2px white solid;
+
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+  border-radius: 20px;
+
+  display: inline-block;
+  cursor: pointer;
+  
+  padding: 0.25em 1em;
+}
+
+.bt2:hover{
+  background-color: rgb(170, 9, 9);
+  transform: scale(1.1);
+}
+.bt1:hover{
+  background-color: green;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
